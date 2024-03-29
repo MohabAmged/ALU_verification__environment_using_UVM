@@ -11,16 +11,16 @@ Implemented all uvm components : Subscriber , Monitor , Driver , Scoreboard , Se
 Simple 32-bits alu with 3-bits opcodes and a zero flag.
 * OPCODES
   
-| operations | opcode |
-| ---------- | ------ |
-| AND        |  0     |
-| OR         |  1     |
-| ADD        |  2     |
-| XOR        |  3     |
-| NOR        |  4     |
-| NAND       |  5     |
-| SUB        |  6     |
-| SLT        |  7     |
+  | operations | opcode |
+  | ---------- | ------ |
+  | AND        |  0     |
+  | OR         |  1     |
+  | ADD        |  2     |
+  | XOR        |  3     |
+  | NOR        |  4     |
+  | NAND       |  5     |
+  | SUB        |  6     |
+  | SLT        |  7     |
 
 ![image](https://github.com/MohabAmged/ALU_verification__environment_using_UVM/assets/68222258/d89b8ef3-0dfd-4ed5-aaf6-be13c53e310e)
 
