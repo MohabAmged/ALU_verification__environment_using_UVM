@@ -1,5 +1,5 @@
 # ALU_verification__environment_using_UVM
-Designed and Verified a simple 32-bits alu using UVM envrionemnt and constrained random testing ,
+Designed and Verified a simple 32-bits alu using UVM environment and constrained random testing ,
 tested with 400 different random inputs.
 # UVM Environment 
 Implemented all uvm components : Subscriber , Monitor , Driver , Scoreboard , Sequencer , Env , Test , Sequence , Sequence Item .
