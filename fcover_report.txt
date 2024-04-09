@@ -1,0 +1,356 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top_sv_unit
+=== Design Unit: work.top_sv_unit
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          8        na        na        na
+            Covergroup Bins         77        77         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /top_sv_unit/alu_subscriber/alu_cover_group     100.00%        100          -    Covered              
+    covered/total bins:                                    77         77          -                      
+    missing/total bins:                                     0         77          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint op_code                                100.00%        100          -    Covered              
+        covered/total bins:                                12         12          -                      
+        missing/total bins:                                 0         12          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint operand_A                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint operand_B                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint output__                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint zero_flag                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross opc_operand_A_cross                         100.00%        100          -    Covered              
+        covered/total bins:                                22         22          -                      
+        missing/total bins:                                 0         22          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross opc_operand_B_cross                         100.00%        100          -    Covered              
+        covered/total bins:                                22         22          -                      
+        missing/total bins:                                 0         22          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross opc_output_cross                            100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/top_sv_unit::alu_subscriber::alu_cover_group  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    77         77          -                      
+    missing/total bins:                                     0         77          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint op_code                                100.00%        100          -    Covered              
+        covered/total bins:                                12         12          -                      
+        missing/total bins:                                 0         12          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin and__bin                                       60          1          -    Covered              
+        bin or__bin                                        57          1          -    Covered              
+        bin add__bin                                       48          1          -    Covered              
+        bin xor__bin                                       50          1          -    Covered              
+        bin nor__bin                                       50          1          -    Covered              
+        bin nand__bin                                      44          1          -    Covered              
+        bin sub__bin                                       54          1          -    Covered              
+        bin slt__bin                                       53          1          -    Covered              
+        bin and_or_add__bin                                 2          1          -    Covered              
+        bin nor_nand__bin                                   8          1          -    Covered              
+        bin logic_operations__bin                         261          1          -    Covered              
+        bin arith_operations__bin                         102          1          -    Covered              
+        default bin default__bin                            0                     -    ZERO                 
+    Coverpoint operand_A                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin least_half_range__bin                         401          1          -    Covered              
+        bin most_half_rang__bin                            15          1          -    Covered              
+        bin all_ones__bin                                   8          1          -    Covered              
+        bin zero__bin                                       8          1          -    Covered              
+        default bin default__bin                            0                     -    ZERO                 
+    Coverpoint operand_B                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin least_half_range__bin                         395          1          -    Covered              
+        bin most_half_rang__bin                            21          1          -    Covered              
+        bin all_ones__bin                                   8          1          -    Covered              
+        bin zero__bin                                       8          1          -    Covered              
+        default bin default__bin                            0                     -    ZERO                 
+    Coverpoint output__                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin least_half_range__bin                         337          1          -    Covered              
+        bin most_half_rang__bin                            79          1          -    Covered              
+        bin all_ones__bin                                   4          1          -    Covered              
+        bin zero__bin                                      34          1          -    Covered              
+        default bin default__bin                            0                     -    ZERO                 
+    Coverpoint zero_flag                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Zero__bin                                     382          1          -    Covered              
+        bin One__bin                                       34          1          -    Covered              
+    Cross opc_operand_A_cross                         100.00%        100          -    Covered              
+        covered/total bins:                                22         22          -                      
+        missing/total bins:                                 0         22          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin All_ones_with_add__bin                      5          1          -    Covered              
+            bin All_ones_with_sub__bin                      5          1          -    Covered              
+            bin All_zero_with_add__bin                     97          1          -    Covered              
+            bin All_zero_with_sub__bin                     97          1          -    Covered              
+            bin <logic_operations__bin,zero__bin>           5          1          -    Covered              
+            bin <nor_nand__bin,zero__bin>                   1          1          -    Covered              
+            bin <slt__bin,zero__bin>                        1          1          -    Covered              
+            bin <xor__bin,zero__bin>                        1          1          -    Covered              
+            bin <nand__bin,zero__bin>                       1          1          -    Covered              
+            bin <or__bin,zero__bin>                         1          1          -    Covered              
+            bin <nor__bin,zero__bin>                        1          1          -    Covered              
+            bin <and__bin,zero__bin>                        1          1          -    Covered              
+            bin <slt__bin,all_ones__bin>                    1          1          -    Covered              
+            bin <slt__bin,most_half_rang__bin>              2          1          -    Covered              
+            bin <logic_operations__bin,least_half_range__bin> 
+                                                          253          1          -    Covered              
+            bin <nor_nand__bin,least_half_range__bin> 
+                                                            7          1          -    Covered              
+            bin <slt__bin,least_half_range__bin>           51          1          -    Covered              
+            bin <xor__bin,least_half_range__bin>           49          1          -    Covered              
+            bin <nand__bin,least_half_range__bin>          42          1          -    Covered              
+            bin <or__bin,least_half_range__bin>            56          1          -    Covered              
+            bin <nor__bin,least_half_range__bin>           48          1          -    Covered              
+            bin <and__bin,least_half_range__bin>           58          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin All_ones_with_logic__bin             8                     -    Occurred             
+    Cross opc_operand_B_cross                         100.00%        100          -    Covered              
+        covered/total bins:                                22         22          -                      
+        missing/total bins:                                 0         22          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin All_ones_with_add__bin                      3          1          -    Covered              
+            bin All_ones_with_sub__bin                      3          1          -    Covered              
+            bin All_zero_with_add__bin                     99          1          -    Covered              
+            bin All_zero_with_sub__bin                     99          1          -    Covered              
+            bin <logic_operations__bin,zero__bin>           5          1          -    Covered              
+            bin <nor_nand__bin,zero__bin>                   1          1          -    Covered              
+            bin <slt__bin,zero__bin>                        1          1          -    Covered              
+            bin <xor__bin,zero__bin>                        1          1          -    Covered              
+            bin <nand__bin,zero__bin>                       1          1          -    Covered              
+            bin <or__bin,zero__bin>                         1          1          -    Covered              
+            bin <nor__bin,zero__bin>                        1          1          -    Covered              
+            bin <and__bin,zero__bin>                        1          1          -    Covered              
+            bin <slt__bin,all_ones__bin>                    1          1          -    Covered              
+            bin <slt__bin,most_half_rang__bin>              5          1          -    Covered              
+            bin <logic_operations__bin,least_half_range__bin> 
+                                                          248          1          -    Covered              
+            bin <nor_nand__bin,least_half_range__bin> 
+                                                            7          1          -    Covered              
+            bin <slt__bin,least_half_range__bin>           48          1          -    Covered              
+            bin <xor__bin,least_half_range__bin>           48          1          -    Covered              
+            bin <nand__bin,least_half_range__bin>          41          1          -    Covered              
+            bin <or__bin,least_half_range__bin>            54          1          -    Covered              
+            bin <nor__bin,least_half_range__bin>           47          1          -    Covered              
+            bin <and__bin,least_half_range__bin>           58          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin All_ones_with_logic__bin            13                     -    Occurred             
+    Cross opc_output_cross                            100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin All_ones_with_add__bin                     17          1          -    Covered              
+            bin All_ones_with_sub__bin                     17          1          -    Covered              
+            bin All_zero_with_add__bin                     85          1          -    Covered              
+            bin All_zero_with_sub__bin                     85          1          -    Covered              
+            bin All_ones_with_logic__bin                   62          1          -    Covered              
+            bin All_zeros_with_logic__bin                 199          1          -    Covered              
+            bin anypoint__bin                             416          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /top_sv_unit/alu_subscriber/alu_cover_group     100.00%        100          -    Covered              
+    covered/total bins:                                    77         77          -                      
+    missing/total bins:                                     0         77          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint op_code                                100.00%        100          -    Covered              
+        covered/total bins:                                12         12          -                      
+        missing/total bins:                                 0         12          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint operand_A                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint operand_B                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint output__                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint zero_flag                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross opc_operand_A_cross                         100.00%        100          -    Covered              
+        covered/total bins:                                22         22          -                      
+        missing/total bins:                                 0         22          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross opc_operand_B_cross                         100.00%        100          -    Covered              
+        covered/total bins:                                22         22          -                      
+        missing/total bins:                                 0         22          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross opc_output_cross                            100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/top_sv_unit::alu_subscriber::alu_cover_group  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    77         77          -                      
+    missing/total bins:                                     0         77          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint op_code                                100.00%        100          -    Covered              
+        covered/total bins:                                12         12          -                      
+        missing/total bins:                                 0         12          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin and__bin                                       60          1          -    Covered              
+        bin or__bin                                        57          1          -    Covered              
+        bin add__bin                                       48          1          -    Covered              
+        bin xor__bin                                       50          1          -    Covered              
+        bin nor__bin                                       50          1          -    Covered              
+        bin nand__bin                                      44          1          -    Covered              
+        bin sub__bin                                       54          1          -    Covered              
+        bin slt__bin                                       53          1          -    Covered              
+        bin and_or_add__bin                                 2          1          -    Covered              
+        bin nor_nand__bin                                   8          1          -    Covered              
+        bin logic_operations__bin                         261          1          -    Covered              
+        bin arith_operations__bin                         102          1          -    Covered              
+        default bin default__bin                            0                     -    ZERO                 
+    Coverpoint operand_A                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin least_half_range__bin                         401          1          -    Covered              
+        bin most_half_rang__bin                            15          1          -    Covered              
+        bin all_ones__bin                                   8          1          -    Covered              
+        bin zero__bin                                       8          1          -    Covered              
+        default bin default__bin                            0                     -    ZERO                 
+    Coverpoint operand_B                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin least_half_range__bin                         395          1          -    Covered              
+        bin most_half_rang__bin                            21          1          -    Covered              
+        bin all_ones__bin                                   8          1          -    Covered              
+        bin zero__bin                                       8          1          -    Covered              
+        default bin default__bin                            0                     -    ZERO                 
+    Coverpoint output__                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin least_half_range__bin                         337          1          -    Covered              
+        bin most_half_rang__bin                            79          1          -    Covered              
+        bin all_ones__bin                                   4          1          -    Covered              
+        bin zero__bin                                      34          1          -    Covered              
+        default bin default__bin                            0                     -    ZERO                 
+    Coverpoint zero_flag                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Zero__bin                                     382          1          -    Covered              
+        bin One__bin                                       34          1          -    Covered              
+    Cross opc_operand_A_cross                         100.00%        100          -    Covered              
+        covered/total bins:                                22         22          -                      
+        missing/total bins:                                 0         22          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin All_ones_with_add__bin                      5          1          -    Covered              
+            bin All_ones_with_sub__bin                      5          1          -    Covered              
+            bin All_zero_with_add__bin                     97          1          -    Covered              
+            bin All_zero_with_sub__bin                     97          1          -    Covered              
+            bin <logic_operations__bin,zero__bin>           5          1          -    Covered              
+            bin <nor_nand__bin,zero__bin>                   1          1          -    Covered              
+            bin <slt__bin,zero__bin>                        1          1          -    Covered              
+            bin <xor__bin,zero__bin>                        1          1          -    Covered              
+            bin <nand__bin,zero__bin>                       1          1          -    Covered              
+            bin <or__bin,zero__bin>                         1          1          -    Covered              
+            bin <nor__bin,zero__bin>                        1          1          -    Covered              
+            bin <and__bin,zero__bin>                        1          1          -    Covered              
+            bin <slt__bin,all_ones__bin>                    1          1          -    Covered              
+            bin <slt__bin,most_half_rang__bin>              2          1          -    Covered              
+            bin <logic_operations__bin,least_half_range__bin> 
+                                                          253          1          -    Covered              
+            bin <nor_nand__bin,least_half_range__bin> 
+                                                            7          1          -    Covered              
+            bin <slt__bin,least_half_range__bin>           51          1          -    Covered              
+            bin <xor__bin,least_half_range__bin>           49          1          -    Covered              
+            bin <nand__bin,least_half_range__bin>          42          1          -    Covered              
+            bin <or__bin,least_half_range__bin>            56          1          -    Covered              
+            bin <nor__bin,least_half_range__bin>           48          1          -    Covered              
+            bin <and__bin,least_half_range__bin>           58          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin All_ones_with_logic__bin             8                     -    Occurred             
+    Cross opc_operand_B_cross                         100.00%        100          -    Covered              
+        covered/total bins:                                22         22          -                      
+        missing/total bins:                                 0         22          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin All_ones_with_add__bin                      3          1          -    Covered              
+            bin All_ones_with_sub__bin                      3          1          -    Covered              
+            bin All_zero_with_add__bin                     99          1          -    Covered              
+            bin All_zero_with_sub__bin                     99          1          -    Covered              
+            bin <logic_operations__bin,zero__bin>           5          1          -    Covered              
+            bin <nor_nand__bin,zero__bin>                   1          1          -    Covered              
+            bin <slt__bin,zero__bin>                        1          1          -    Covered              
+            bin <xor__bin,zero__bin>                        1          1          -    Covered              
+            bin <nand__bin,zero__bin>                       1          1          -    Covered              
+            bin <or__bin,zero__bin>                         1          1          -    Covered              
+            bin <nor__bin,zero__bin>                        1          1          -    Covered              
+            bin <and__bin,zero__bin>                        1          1          -    Covered              
+            bin <slt__bin,all_ones__bin>                    1          1          -    Covered              
+            bin <slt__bin,most_half_rang__bin>              5          1          -    Covered              
+            bin <logic_operations__bin,least_half_range__bin> 
+                                                          248          1          -    Covered              
+            bin <nor_nand__bin,least_half_range__bin> 
+                                                            7          1          -    Covered              
+            bin <slt__bin,least_half_range__bin>           48          1          -    Covered              
+            bin <xor__bin,least_half_range__bin>           48          1          -    Covered              
+            bin <nand__bin,least_half_range__bin>          41          1          -    Covered              
+            bin <or__bin,least_half_range__bin>            54          1          -    Covered              
+            bin <nor__bin,least_half_range__bin>           47          1          -    Covered              
+            bin <and__bin,least_half_range__bin>           58          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin All_ones_with_logic__bin            13                     -    Occurred             
+    Cross opc_output_cross                            100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin All_ones_with_add__bin                     17          1          -    Covered              
+            bin All_ones_with_sub__bin                     17          1          -    Covered              
+            bin All_zero_with_add__bin                     85          1          -    Covered              
+            bin All_zero_with_sub__bin                     85          1          -    Covered              
+            bin All_ones_with_logic__bin                   62          1          -    Covered              
+            bin All_zeros_with_logic__bin                 199          1          -    Covered              
+            bin anypoint__bin                             416          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+
